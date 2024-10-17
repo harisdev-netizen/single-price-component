@@ -169,11 +169,12 @@ body {
   }
 
   .subscription-header {
-    margin: 28px 24px 32px 24px;
+    margin: 28px 24px 32px 23px;
   }
 
   .subscription-header h2 {
     font-size: 20px;
+    margin-bottom: 32px;
   }
 
   .subscription-header .guarantee {
