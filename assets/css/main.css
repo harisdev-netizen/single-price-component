@@ -117,7 +117,7 @@ body {
 .sign-up-btn:hover {
   background-color: #CCF611;
   color: #FFFFFF;
-  box-shadow: 4px 7px 0px -1px #b0ce2a;
+  box-shadow: 4px 7px 0px -1px #B0CE2A;
 }
 
 .subscription-benefits {
@@ -158,7 +158,7 @@ body {
 	width: 100%;
   text-align: center;
   background-color: #2AB3B1;
-  color: #ccf611;
+  color: #CCF611;
 	text-transform: uppercase;
   text-decoration: none;
 }
