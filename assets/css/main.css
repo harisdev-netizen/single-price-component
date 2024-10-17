@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Karla';
+}
+
+body {
+  background-color: #E6EFF5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.subscription-container {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 635px;
+  box-shadow: 0px 15px 30px 0px #0051AB26;
+}
+
+.subscription-header {
+  margin: 40px;
+  background-color: #FFFFFF;
+}
+
+.subscription-header h2 {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: -0.3px;
+  color: #2AB3B1;
+  margin-bottom: 24px;
+}
+
+.subscription-header .guarantee {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: -0.22px;
+  color: #C0DF33;
+  margin-bottom: 11px;
+}
+
+.guarantee-detail {
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.subscription-body {
+  display: flex;
+  max-width: 635px;
+  height: 259px;
+}
+
+.subscription-plan, .subscription-benefits {
+  padding: 40px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.subscription-plan {
+  background-color: #2AB3B1;
+  color: #FFFFFF;
+}
+
+.subscription-benefits {
+  padding: 40px;
+}
+
+.subscription-plan h3 {
+  font-size: 18px;
+  margin-bottom: 18px;
+  line-height: 1.16em;
+}
+
+.subscription-plan .price {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 9px;
+}
+
+.subscription-plan .price span {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  line-height: 1.16em;
+  margin-left: 11px;
+  opacity: 50%;
+}
+
+.subscription-plan .price-detail {
+  line-height: 1.62em;
+  letter-spacing: -0.2px;
+  margin-bottom: 26px;
+}
+
+.sign-up-btn {
+  padding: 15px 89px 14px 89px;
+  margin-bottom: 39px;
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 1.16em;
+  border: none;
+  border-radius: 5px;
+  background-color: #C0DF33;
+  color: #FFFFFF;
+  box-shadow: 0px 10px 10px 0px #00000019;
+}
+
+.subscription-benefits {
+  opacity: 77%;
+  background-color: #2AB3B1;
+  color: #FFFFFF;
+}
+
+.subscription-benefits h3 {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16em;
+  letter-spacing: -0.22px;
+  margin-bottom: 18px;
+}
+
+.subscription-benefits ul {
+  list-style-type: none;
+}
+
+.subscription-benefits li {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4em;
+  letter-spacing: -0.17px;
+  opacity: 75%;
+  color: #FFFFFF;
+}
+
+.signature {
+	position: absolute;
+  /* margin-top: auto; */
+	font-size: 14px;
+  font-family:  'Karla';
+	font-weight: 500;
+  padding: 10px;
+	bottom: 0;
+	left: 0;
+	letter-spacing: 4px;
+	width: 100%;
+  text-align: center;
+  background-color: #2AB3B1;
+  color: #ccf611;
+	text-transform: uppercase;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    margin: 60px 30px;
+    height: auto;
+  }
+
+  .subscription-container {
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .subscription-header {
+    margin: 28px 24px 32px 24px;
+  }
+
+  .subscription-header h2 {
+    font-size: 20px;
+  }
+
+  .subscription-header .guarantee {
+    font-size: 15px;
+    margin-bottom: 16px;
+  }
+
+  .guarantee-detail {
+    font-size: 14px;
+  }
+
+  .subscription-body {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .subscription-plan {
+    padding: 24px 24px 0 24px;
+  }
+
+  .subscription-plan .price {
+    font-size: 32px;
+  }
+
+  .subscription-plan .price span {
+    font-size: 16px;
+  }
+
+  .subscription-plan .sign-up-btn {
+    padding: 15px 102px 14px 102px;
+    margin-bottom: 24px;
+    width: 100%;
+  }
+
+  .signature {
+    position: fixed;
+  }
+}
