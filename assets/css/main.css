@@ -114,6 +114,12 @@ body {
   box-shadow: 0px 10px 10px 0px #00000019;
 }
 
+.sign-up-btn:hover {
+  background-color: #CCF611;
+  color: #FFFFFF;
+  box-shadow: 4px 7px 0px -1px #b0ce2a;
+}
+
 .subscription-benefits {
   opacity: 77%;
   background-color: #2AB3B1;
